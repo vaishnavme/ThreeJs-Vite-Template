@@ -1,16 +1,22 @@
 {
    "name": "threejs-vite-template",
-   "version": "0.0.0",
+   "version": "1.0.0",
+   "description": "Three js + Vite Template Quick setup template",
+   "author": "vaishnavme",
+   "license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vaishnavme/ThreeJs-Vite-Template.git"
+	 },
    "scripts": {
-     "dev": "vite",
-     "build": "vite build",
-     "serve": "vite preview"
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
    },
    "devDependencies": {
-     "vite": "^2.7.1"
+      "vite": "^2.7.1"
    },
    "dependencies": {
-     "three": "^0.135.0"
+      "three": "^0.135.0"
    }
- }
- 
+}
